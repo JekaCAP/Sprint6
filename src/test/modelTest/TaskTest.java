@@ -1,10 +1,14 @@
-package modelTest;
-import logic.InMemoryTaskManager;
-import logic.TaskManager;
+package test.modelTest;
+
+import main.logic.InMemoryTaskManager;
+import main.logic.TaskManager;
+import main.tasks.Epic;
+import main.tasks.Subtask;
+import main.tasks.Task;
 import org.junit.jupiter.api.BeforeEach;
-import tasks.*;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class TaskTest {

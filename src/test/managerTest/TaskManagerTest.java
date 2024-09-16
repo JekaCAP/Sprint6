@@ -1,10 +1,14 @@
-package managerTest;
+package test.managerTest;
 
-import logic.*;
-import tasks.*;
+
+import main.logic.InMemoryTaskManager;
+import main.logic.TaskManager;
+import main.tasks.Epic;
+import main.tasks.Subtask;
+import main.tasks.Task;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -72,11 +76,11 @@ public class TaskManagerTest {
         taskManager.epicCreator(epic);
         Subtask subtask = new Subtask(1, "Подзадача 1", "Подзадача Описание 1", epic);
         taskManager.subtaskCreator(subtask);
-        assertEquals(1,taskManager.getSubtasks().size());
+        assertEquals(1, taskManager.getSubtasks().size());
 
         assertEquals(subtask, taskManager.getSubtaskById(1));
         taskManager.deleteSubtask(1);
-        assertEquals(0,taskManager.getSubtasks().size());
+        assertEquals(0, taskManager.getSubtasks().size());
 
     }
 

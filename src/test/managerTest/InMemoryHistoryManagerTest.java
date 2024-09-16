@@ -1,11 +1,10 @@
-package managerTest;
+package test.managerTest;
 
-import logic.InMemoryHistoryManager;
-import logic.HistoryManager;
-import tasks.Task;
+import main.logic.InMemoryHistoryManager;
+import main.logic.HistoryManager;
+import main.tasks.Task;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;

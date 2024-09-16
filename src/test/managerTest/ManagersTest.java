@@ -1,10 +1,11 @@
-package managerTest;
+package test.managerTest;
 
+import main.logic.HistoryManager;
+import main.logic.Managers;
+import main.logic.TaskManager;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import logic.*;
 
 public class ManagersTest {
     @Test

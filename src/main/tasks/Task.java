@@ -1,7 +1,7 @@
-package tasks;
+package main.tasks;
 
-import logic.TaskStatus;
-import logic.TaskType;
+import main.logic.TaskStatus;
+import main.logic.TaskType;
 
 public class Task {
     protected String title;

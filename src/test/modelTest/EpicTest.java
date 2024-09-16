@@ -1,8 +1,9 @@
-package modelTest;
+package test.modelTest;
 
-import logic.InMemoryTaskManager;
-import logic.TaskManager;
-import tasks.*;
+import main.logic.InMemoryTaskManager;
+import main.logic.TaskManager;
+import main.tasks.Epic;
+import main.tasks.Subtask;
 
 import org.junit.jupiter.api.Test;
 
@@ -19,8 +20,8 @@ public class EpicTest {
         Epic epic = new Epic("Epic", "Описание");
         taskManager.epicCreator(epic);
 
-        Subtask subtask1 = new Subtask( "Подзадача", "Описание", epic);
-        Subtask subtask2 = new Subtask( "Подзадача", "Описание", epic);
+        Subtask subtask1 = new Subtask("Подзадача", "Описание", epic);
+        Subtask subtask2 = new Subtask("Подзадача", "Описание", epic);
 
         taskManager.subtaskCreator(subtask1);
         taskManager.subtaskCreator(subtask2);

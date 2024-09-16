@@ -1,8 +1,12 @@
-import logic.Managers;
-import logic.TaskManager;
+package main;
 
-import logic.TaskStatus;
-import tasks.*;
+import main.logic.Managers;
+import main.logic.TaskManager;
+
+import main.logic.TaskStatus;
+import main.tasks.Epic;
+import main.tasks.Subtask;
+import main.tasks.Task;
 
 public class Main {
     public static void main(String[] args) {

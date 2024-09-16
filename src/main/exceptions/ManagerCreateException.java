@@ -1,4 +1,4 @@
-package exceptions;
+package main.exceptions;
 
 public class ManagerCreateException extends RuntimeException {
     public ManagerCreateException(final String message) {

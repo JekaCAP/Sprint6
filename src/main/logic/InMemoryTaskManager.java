@@ -1,6 +1,9 @@
-package logic;
+package main.logic;
 
-import tasks.*;
+import main.tasks.Epic;
+import main.tasks.Subtask;
+import main.tasks.Task;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;

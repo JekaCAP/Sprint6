@@ -1,6 +1,6 @@
-package logic;
+package main.logic;
 
-import tasks.Task;
+import main.tasks.Task;
 
 import java.util.*;
 

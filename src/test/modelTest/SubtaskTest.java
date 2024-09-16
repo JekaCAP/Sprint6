@@ -1,10 +1,11 @@
-package modelTest;
+package test.modelTest;
 
-import logic.InMemoryTaskManager;
-import logic.TaskManager;
+import main.logic.InMemoryTaskManager;
+import main.logic.TaskManager;
 
-import logic.TaskStatus;
-import tasks.*;
+import main.logic.TaskStatus;
+import main.tasks.Epic;
+import main.tasks.Subtask;
 
 import org.junit.jupiter.api.Test;
 

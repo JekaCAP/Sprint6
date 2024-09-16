@@ -1,4 +1,4 @@
-package logic;
+package main.logic;
 
 public enum TaskStatus {
     NEW,
