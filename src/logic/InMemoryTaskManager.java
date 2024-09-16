@@ -190,7 +190,7 @@ public class InMemoryTaskManager implements TaskManager {
     }
 
     private void checkId(Task task) {
-        if(task.getId() == null) {
+        if (task.getId() == null) {
             task.setId(++idGenerator);
         }
     }
